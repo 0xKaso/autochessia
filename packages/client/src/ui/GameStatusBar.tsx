@@ -77,9 +77,13 @@ function GameStatusBar({ showModal, customRef, customRef2 }) {
             style={{ width: width + "%" }}
           ></div>
           <span className="timeleft mx-auto z-20  ">
-            <span className="uppercase  whitespace-nowrap">{status}</span>
+            <span className="uppercase  whitespace-nowrap font-bold">
+              {status}
+            </span>
             {status == "Preparing" && (
-              <span className="ml-[20px]">{timeLeft >= 0 ? time : null}</span>
+              <span className="ml-[20px] font-bold">
+                {timeLeft >= 0 ? time : null}
+              </span>
             )}
           </span>
         </div>

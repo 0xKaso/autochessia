@@ -439,7 +439,7 @@ const JoinGame = (/**{}: JoinGameProps */) => {
       </div>
 
       <div className="JoinGame bg-indigo-100">
-        <div className="grid justify-items-center h-20 bg-transparent absolute top-20  left-0 right-0 z-10  ">
+        <div className="grid justify-items-center h-20 bg-transparent absolute top-10  left-0 right-0 z-10  ">
           {/* <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-blue-500">
             Autochessia
           </h1> */}
