@@ -25,46 +25,31 @@ export default function usePreload() {
       // legend
       for (let i = 1n; i <= heroDistribution.legendCount; i++) {
         urls.push(
-          `https://autochessia.4everland.store/autochess-v0.0.2/hero/${encodeHeroIdString(
-            4n,
-            i
-          )}.png`
+          `https://autochess.4everland.store/${encodeHeroIdString(4n, i)}.png`
         );
       }
       // epic
       for (let i = 1n; i <= heroDistribution.epicCount; i++) {
         urls.push(
-          `https://autochessia.4everland.store/autochess-v0.0.2/hero/${encodeHeroIdString(
-            3n,
-            i
-          )}.png`
+          `https://autochess.4everland.store/${encodeHeroIdString(3n, i)}.png`
         );
       }
       // rare
       for (let i = 1n; i <= heroDistribution.rareCount; i++) {
         urls.push(
-          `https://autochessia.4everland.store/autochess-v0.0.2/hero/${encodeHeroIdString(
-            2n,
-            i
-          )}.png`
+          `https://autochess.4everland.store/${encodeHeroIdString(2n, i)}.png`
         );
       }
       // uncommon
       for (let i = 1n; i <= heroDistribution.uncommonCount; i++) {
         urls.push(
-          `https://autochessia.4everland.store/autochess-v0.0.2/hero/${encodeHeroIdString(
-            1n,
-            i
-          )}.png`
+          `https://autochess.4everland.store/${encodeHeroIdString(1n, i)}.png`
         );
       }
       // common
       for (let i = 1n; i <= heroDistribution.commonCount; i++) {
         urls.push(
-          `https://autochessia.4everland.store/autochess-v0.0.2/hero/${encodeHeroIdString(
-            0n,
-            i
-          )}.png`
+          `https://autochess.4everland.store/${encodeHeroIdString(0n, i)}.png`
         );
       }
       urls.forEach((url) => {

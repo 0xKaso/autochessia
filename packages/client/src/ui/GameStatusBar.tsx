@@ -48,7 +48,7 @@ function GameStatusBar({ showModal, customRef, customRef2 }) {
         <Tooltip title={`OPEN SHOP`}>
           <div
             ref={customRef}
-            className="cursor-pointer mx-[20px]"
+            className="cursor-pointer mx-[20px] w-40"
             onClick={() => showModal()}
           >
             <img src={Logo} alt="" />

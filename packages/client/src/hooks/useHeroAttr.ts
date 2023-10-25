@@ -33,7 +33,7 @@ export enum HeroClass {
 }
 
 export const srcObj = {
-  perUrl: "https://autochessia.4everland.store/autochess-v0.0.2/hero/",
+  perUrl: "https://autochess.4everland.store/",
 };
 
 export function useHeroesAttr(arr: bigint[]): HeroBaseAttr[] {
