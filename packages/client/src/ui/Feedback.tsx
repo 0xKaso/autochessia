@@ -9,16 +9,16 @@ export default function Feedback() {
     }
   > = {
     // Feedback: "https://autochessia.canny.io/",
-    Github: {
-      link: "https://github.com/HelheimLabs/autochessia",
-      icon: "https://img.icons8.com/?size=80&id=12598&format=png",
-    },
+    // Github: {
+    //   link: "https://github.com/HelheimLabs/autochessia",
+    //   icon: "https://img.icons8.com/?size=80&id=12598&format=png",
+    // },
     Discord: {
-      link: "https://discord.gg/Qget5JQHtr",
+      link: "https://discord.com/invite/Agpn3n35",
       icon: "https://img.icons8.com/?size=80&id=wtEAYiCLYgtq&format=png",
     },
     X: {
-      link: "https://twitter.com/auto_chessia",
+      link: "https://x.com/MetaElfland_ZKS",
       icon: "https://img.icons8.com/?size=80&id=phOKFKYpe00C&format=png",
     },
   };

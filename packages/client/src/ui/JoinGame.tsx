@@ -446,9 +446,9 @@ const JoinGame = (/**{}: JoinGameProps */) => {
           <div>
             <img src={Logo} />
           </div>
-          <div className="mt-[40px] w-8 h-8 bg-gradient-to-br from-indigo-500 via-indigo-600 to-indigo-700 animate-spin"></div>
+          <div className="w-4 h-4 bg-gradient-to-br from-indigo-500 via-indigo-600 to-indigo-700 animate-spin"></div>
           <div className="  flex flex-col items-center justify-center">
-            <div className="flex justify-center mt-20">
+            <div className="flex justify-center">
               <div>
                 <Button
                   className="cursor-pointer btn bg-blue-500  text-white font-bold  px-4 rounded"
